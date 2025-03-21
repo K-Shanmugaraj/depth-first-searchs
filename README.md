@@ -1,6 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: Adhithya Perumal D </h3>
-<h3>Register Number:  212222230007 </h3>
+<h3>Name: Shanmuga Raj.K </h3>
+<h3>Register Number:  212223040192 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
