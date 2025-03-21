@@ -106,7 +106,7 @@ D E <BR>
 2 4 <BR>
 
 <h3>Sample Output</h3>
-![Uploading Screenshot 2025-03-21 160322.png…]()
+![Screenshot 2025-03-21 160322](https://github.com/user-attachments/assets/faf8d1fd-7243-4f64-9aa7-d8173a7dbce8)
 
 
 <h3>Result:</h3>
