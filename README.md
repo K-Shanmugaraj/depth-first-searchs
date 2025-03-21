@@ -106,8 +106,8 @@ D E <BR>
 2 4 <BR>
 
 <h3>Sample Output</h3>
-![Screenshot 2025-03-21 160322](https://github.com/user-attachments/assets/9f43af36-206b-4e1a-b274-81f6b34effb8)
 
+![Screenshot 2025-03-21 161140](https://github.com/user-attachments/assets/f1b1bb1a-3476-4a37-8078-0e1c3e501a45)
 
 <h3>Result:</h3>
 
