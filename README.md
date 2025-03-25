@@ -57,7 +57,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 ## Program:
 ```
 from collections import defaultdict
-# Function to perform DFS
+
 def dfs(graph, start, visited, path):
     path.append(start)
     visited[start] = True
@@ -65,7 +65,7 @@ def dfs(graph, start, visited, path):
         if not visited[neighbor]:
             dfs(graph, neighbor, visited, path)
     return path
-# Input the graph
+
 def main():
     graph = defaultdict(list)
     n, e = map(int, input("Enter the number of nodes and edges: ").split())
@@ -73,17 +73,12 @@ def main():
     for _ in range(e):
         u, v = input().split()
         graph[u].append(v)
-        graph[v].append(u)  # Uncomment this line for an undirected graph
-
+        graph[v].append(u)
     start = input("Enter the start node: ")
     visited = defaultdict(bool)
     path = []
-
-    # Perform DFS
     traversed_path = dfs(graph, start, visited, path)
     print("DFS Traversal:", traversed_path)
-
-# Sample execution
 if __name__ == "__main__":
     main()
 
