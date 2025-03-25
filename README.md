@@ -81,7 +81,6 @@ def main():
     print("DFS Traversal:", traversed_path)
 if __name__ == "__main__":
     main()
-
 ```
 <hr>
 <h3>Sample Input</h3>
@@ -117,7 +116,7 @@ F H <BR>
 <hr>
 <h3>Sample Output</h3>
 <hr>
-![Screenshot 2025-03-25 054216](https://github.com/user-attachments/assets/894cee50-7ab8-4ad5-ad0d-ab40bde31fc6)
+![Screenshot 2025-03-25 054216](https://github.com/user-attachments/assets/0a039eb2-82b1-4c59-9ce4-145ce35449eb)
 
 
 <hr>
