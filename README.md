@@ -57,59 +57,74 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 ## Program:
 ```
 from collections import defaultdict
+# Function to perform DFS
 def dfs(graph, start, visited, path):
     path.append(start)
     visited[start] = True
-    for neighbour in graph[start]:
-        if not visited[neighbour]:
-            dfs(graph, neighbour, visited, path)
+    for neighbor in graph[start]:
+        if not visited[neighbor]:
+            dfs(graph, neighbor, visited, path)
     return path
+# Input the graph
+def main():
+    graph = defaultdict(list)
+    n, e = map(int, input("Enter the number of nodes and edges: ").split())
+    print("Enter the edges (u v):")
+    for _ in range(e):
+        u, v = input().split()
+        graph[u].append(v)
+        graph[v].append(u)  # Uncomment this line for an undirected graph
 
-graph = defaultdict(list)
-n, e = map(int, input("Enter number of nodes and edges (n e): ").split())
-print("Enter edges (u v):")
-for i in range(e):
-    u, v = input().split()
-    graph[u].append(v)
-    graph[v].append(u)
-print("Graph:", dict(graph))
-start = 'A'
-visited = defaultdict(bool)
-path = []
-traversed_path = dfs(graph, start, visited, path)
-print("DFS Traversal Path:", traversed_path)
+    start = input("Enter the start node: ")
+    visited = defaultdict(bool)
+    path = []
 
+    # Perform DFS
+    traversed_path = dfs(graph, start, visited, path)
+    print("DFS Traversal:", traversed_path)
+
+# Sample execution
+if __name__ == "__main__":
+    main()
 
 ```
-
+<hr>
 <h3>Sample Input</h3>
-
+<hr>
+8 9 <BR>
 A B <BR>
 A C <BR>
-B D <BR>
 B E <BR>
-C E <BR>
-D E <BR>
-
+C D <BR>
+B D <BR>
+C G <BR>
+D F <BR>
+G F <BR>
+F H <BR>
+<hr>
 <h3>Sample Output</h3>
+<hr>
+![Screenshot 2025-03-25 054341](https://github.com/user-attachments/assets/089c936c-d274-4114-8ba4-f9c3578e255a)
 
-![Screenshot 2025-03-21 154635](https://github.com/user-attachments/assets/db405b52-3171-4ec1-a572-f04f15936d75)
 
+<hr>
 
+<hr>
 <h3>Sample Input</h3>
-
+<hr>
 5 5 <BR>
 0 1 <BR>
 0 2 <BR>
 0 3 <BR>
 2 3 <BR>
 2 4 <BR>
-
+<hr>
 <h3>Sample Output</h3>
+<hr>
+![Screenshot 2025-03-25 054216](https://github.com/user-attachments/assets/894cee50-7ab8-4ad5-ad0d-ab40bde31fc6)
 
-![Screenshot 2025-03-21 161140](https://github.com/user-attachments/assets/f1b1bb1a-3476-4a37-8078-0e1c3e501a45)
 
+<hr>
 <h3>Result:</h3>
-
+<hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
-
