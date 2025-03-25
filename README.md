@@ -100,22 +100,21 @@ F H <BR>
 ![Screenshot 2025-03-25 054341](https://github.com/user-attachments/assets/275d0153-6034-4492-b2d0-6e7fce6a9ee9)
 
 
-<hr>
-<h3>Sample Input</h3>
-<hr>
+
+## Sample Input
+
 5 5 <BR>
 0 1 <BR>
 0 2 <BR>
 0 3 <BR>
 2 3 <BR>
 2 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
+
+## Sample Output
+
 ![Screenshot 2025-03-25 054216](https://github.com/user-attachments/assets/0a039eb2-82b1-4c59-9ce4-145ce35449eb)
 
 
-<hr>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
