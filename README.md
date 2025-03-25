@@ -82,9 +82,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-<hr>
-<h3>Sample Input</h3>
-<hr>
+## Sample Input
+
 8 9 <BR>
 A B <BR>
 A C <BR>
@@ -95,14 +94,11 @@ C G <BR>
 D F <BR>
 G F <BR>
 F H <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
+
+## Sample Output
+
 ![Screenshot 2025-03-25 054341](https://github.com/user-attachments/assets/275d0153-6034-4492-b2d0-6e7fce6a9ee9)
 
-
-
-<hr>
 
 <hr>
 <h3>Sample Input</h3>
